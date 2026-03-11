@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHR API  CALL 3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="bgColor">
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-6 offset-3">
+                
+            <h1 class="text-center">NEW ADD POST CARD</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <form id="postFrom">
+                            <div class="form-group">
+                                <label for="">Title</label>
+                                <input type="text"class="form-control" id="title">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Content</label>
+                                <textarea  id="body"class="form-control"></textarea>
+
+                            </div>
+                            <div class="form-group">
+                               <select id="userId"class="form-control">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                    <option value="5">5</option>
+                                     <option value="6">6</option>
+                                      <option value="7">7</option>
+                                       <option value="8">8</option>
+                                        <option value="9">9</option>
+                                         <option value="10">10</option>
+
+
+                               </select>
+
+                            </div>
+                            <div class="form-group">
+                               <button type="submit" class="btn btn-primary btn-sm btn-block"id="addbtn">ADD POST CARD</button>
+<button type="button" class="btn btn-warning btn-sm btn-block d-none" id="updatebtn">UPDATE POST CARD</button>
+                            </div>
+                            
+
+
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row mt-5"id="PostContainer" >
+            <div class="col-4">
+                 <div class="card">
+                <div class="card-header">
+                    <h4>title</h4>
+                </div>
+                <div class="card-body">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit. Totam distinctio excepturi, iusto nihil commodi corrupti quam aut.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button class="btn btn-primary">Edit</button>
+                    <button class="btn btn-danger">Remove</button>
+                </div>
+            </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
